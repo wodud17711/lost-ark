@@ -387,43 +387,43 @@ body{
 }
 
 .slider ul li.m01{
-    background: url(../로스트아크/images/slider01.jpg) no-repeat;
+    background: url(images/slider01.jpg) no-repeat;
 }
 
 .slider ul li.m02{
-    background: url(../로스트아크/images/slider02.jpg) no-repeat;
+    background: url(images/slider02.jpg) no-repeat;
 }
 
 .slider ul li.m03{
-    background: url(../로스트아크/images/slider03.jpg) no-repeat;
+    background: url(images/slider03.jpg) no-repeat;
 }
 
 .slider ul li.m04{
-    background: url(../로스트아크/images/slider04.jpg) no-repeat;
+    background: url(images/slider04.jpg) no-repeat;
 }
 
 .slider ul li.m05{
-    background: url(../로스트아크/images/slider05.jpg) no-repeat;
+    background: url(images/slider05.jpg) no-repeat;
 }
 
 .slider ul li.m06{
-    background: url(../로스트아크/images/slider06.jpg) no-repeat;
+    background: url(images/slider06.jpg) no-repeat;
 }
 
 .slider ul li.m07{
-    background: url(../로스트아크/images/slider07.jpg) no-repeat;
+    background: url(images/slider07.jpg) no-repeat;
 }
 
 .slider ul li.m08{
-    background: url(../로스트아크/images/slider08.jpg) no-repeat;
+    background: url(images/slider08.jpg) no-repeat;
 }
 
 .slider ul li.m09{
-    background: url(../로스트아크/images/slider09.jpg) no-repeat;
+    background: url(images/slider09.jpg) no-repeat;
 }
 
 .slider ul li.m10{
-    background: url(../로스트아크/images/slider10.jpg) no-repeat;
+    background: url(images/slider10.jpg) no-repeat;
 }
 
 .main-top-slider .slider-btn{
@@ -439,7 +439,7 @@ body{
     display: flex;
 }
 
-.left-btn{
+.left-btn, .right-btn{
     display: inline-block;
     width: 40px;
     height: 52px;
@@ -455,12 +455,36 @@ body{
     background-position: -1211px -63px;
 }
 
+.right-btn span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url(images/icon-wrap.png) no-repeat;
+    background-position: -1211px -45px;
+}
+
+.slider-btn-list{
+    width: 730px;
+}
+
+.slider-count{
+    position: absolute;
+    right: 45px;
+    bottom: 15px;
+    color: gray;
+}
+
+.slider-count .count{
+    color: white;
+}
+
+
 
 .bm-banner a.bm{
     display: block;
     width: 100%;
     height: 100%;
-    background: url(../로스트아크/images/imgi_65_e62f23f0d006458e906f9e03a163b0d8.jpg) no-repeat center;
+    background: url(images/imgi_65_e62f23f0d006458e906f9e03a163b0d8.jpg) no-repeat center;
 }
 
 .main-top-news .news-header{
