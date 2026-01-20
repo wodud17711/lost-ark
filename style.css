@@ -463,8 +463,12 @@ body{
     background-position: -1211px -45px;
 }
 
-.slider-btn-list{
+.slider-btn-show{
     width: 730px;
+}
+
+.slider-btn-show .slider-btn-list{
+    display: flex;
 }
 
 .slider-count{
